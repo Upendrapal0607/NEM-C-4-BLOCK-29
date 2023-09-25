@@ -3,7 +3,6 @@ const { connection } = require("./db");
 const { UserRoute } = require("./Routes/UserRoute");
 const { PostRoute } = require("./Routes/PostRoute");
 const cors= require("cors");
-// console.log({cors});
 require("dotenv").config()
 const app= express();
 app.use(express.json());
